@@ -1,0 +1,292 @@
+body{
+    background-image: url(./shara\ desert.jpg);
+height: 100%;
+width: 98%;
+}
+@media screen and (max-width:856px){
+    body{
+        width: 621px;
+        height: 100%;
+    }
+}
+
+.nav{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: whitesmoke;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0rem;
+    margin-right: 13rem;
+    /* text-decoration: none; */
+}
+@media screen and (max-width:856px){
+    .nav { 
+       /* border: 1px solid black; */
+       justify-content: right;
+       margin: 0%;
+       color: black;
+
+    }
+}
+
+#camel{
+margin-right: 61%;
+margin-top: 3rem;
+}
+#home{
+    margin-right: 4rem;
+    margin-top: 3rem;
+    text-decoration: none;
+}
+@media screen and (max-width:856px){
+    #home{
+        margin-right: 5rem;
+        margin-left: -16rem;
+        text-decoration: none;
+    }
+}
+
+#region{
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+@media screen and (max-width:856px){
+    #region{
+        margin-right: 11rem;
+        margin-left: 0rem;
+    }
+}
+#about{
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+@media screen and (max-width:856px){
+    #about{
+        margin-right: 3rem;
+        margin-left: -19%;
+    }
+}
+#More{
+    margin-right: 1rem;
+   
+    margin-top: 3rem;
+    
+}
+@media screen and (max-width:856px){
+    #More{
+        margin-right: 0%;
+    }
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+}
+.para{width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+   /* border: 1px solid black; */
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+   
+padding-bottom: 10px;
+   
+}
+@media screen and (max-width:856px){
+    .para{
+        display: block;
+        width: 30%;
+        height: 100%;
+        padding:3rem 4rem;
+    }}
+#sahara1{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 1%;
+}
+@media screen and (max-width:856px)
+{
+    #sahara1{
+        font-size:40px ;
+        width: 100%;
+        color: orange;
+        font-weight: bolder;
+        
+    }
+}
+#sahara2{ margin-bottom: 25px;
+    font-size: large;
+    color: whitesmoke;
+    padding-bottom: 0%;
+    padding-top: 3rem;
+}
+@media screen and (max-width:856px)
+{
+    #sahara2{
+        font-size:small ;
+        width: autos;
+        color: black;
+        font-weight: bolder;
+        padding: 1rem 1rem;
+    }
+}
+.exp{ background-color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 17rem;
+    margin-right: 17rem;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+@media screen and (max-width:856px)
+{
+    .exp{
+        font-size:100% ;
+        margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+
+    }
+}
+/* .exp:hover{
+    margin-top: 0.1rem;
+} */
+.pics{  
+   
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+height: 500px;
+width: 50%;
+}
+ 
+
+.pics1{
+   background-image: url(./pic-1.png); 
+   background-size:cover ;
+    height: 200px;
+    width: 200px;
+ border-radius: 8%;
+    box-shadow:10px 5px 15px black; 
+    cursor: pointer; 
+    margin-left: 7rem;
+    text-align: center; 
+}
+.pics1:hover{
+   margin-top: -5Px;
+} 
+@media screen and (max-width:856px){
+    .pics1{
+       height: 222px;
+       width: 409px;
+       margin-left: 0rem;
+       margin-top: 1rem;
+       background-size: cover;
+       border-radius: 30px;
+    }
+}
+.pics2{
+  background-image: url(./pic-2.png);
+  background-size:cover ;
+  text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 8%;
+    box-shadow:10px 5px 15px black;
+    cursor: pointer;
+    margin-right:9rem;
+    margin-left: 0rem;
+}
+.pics2:hover{
+    margin-top: -5px;  
+ }
+ @media screen and (max-width:856px){
+    .pics2{
+       height: 222px;
+       width: 414px;
+       margin-left: 0rem;
+       margin-top: 1rem;
+       background-size: cover;
+       border-radius: 30px;
+    }
+}
+    
+.pics3{
+    background-image: url(./pic-3.png);
+    height: 200px;
+    width: 200px;
+    
+    border-radius: 8%;
+    box-shadow:10px 5px 15px black;
+    cursor: pointer;
+    margin-left: 7rem;
+    text-align: center;
+    background-size:cover ;
+}
+.pics3:hover{
+    margin-top: -5px;
+}
+@media screen and (max-width:856px){
+    .pics3{
+        height: 222px;
+        width: 414px;
+        margin-left: 0rem;
+        margin-top: 1rem;
+        background-size: cover;
+        border-radius: 30px;
+    }
+}
+.pics4{
+    background-image: url(./pic-4.png);
+    height: 200px;
+    width: 200px;
+
+    border-radius: 8%;
+    box-shadow:10px 5px 15px black;
+    cursor: pointer;
+    /* margin-left: 12rem; */
+      margin-right: 9rem;
+      text-align: center;
+    background-size:cover ;
+}
+.pics4:hover{
+    margin-top: -5px;
+    
+ }
+ @media screen and (max-width:856px){
+    .pics4{
+        height: 222px;
+        width: 414px;
+        margin-left: 0rem;
+        margin-top: 1rem;
+        background-size: cover;
+        border-radius: 30px;
+    }
+}
+.foot{
+    border: 1px solid black;
+    margin-top: 2%;
+    text-align: center;
+    color: gold;
+    width: 100%;
+}
+@media screen and (max-width:856px){
+    .foot{
+        width: auto;
+        margin-bottom: 0%;
+        margin-top: 33rem;
+        margin-left: 0%;
+        margin-right: -35%;
+    }
+}
